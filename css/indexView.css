@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url(../resources/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: url(../resources/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display Thin';
+    src: url(../resources/SF-Pro-Display-Thin.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px
+}
+
+
+/* mainHeader start */
+
+.mainHeader {
+    background-image: url(../resources//header-background-sm.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* mainHeader end */
+
+
+/* subHeader start */
+
+.subHeader {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 15.44vh;
+}
+
+.subHeader div:first-child {
+    margin-left: 8.41vw
+}
+
+.subHeader div:last-child {
+    margin-right: 8.41vw
+}
+
+
+/* subHeader end*/
+
+
+/* headerMessage start */
+
+.headerMessage {
+    height: 74.30vh;
+}
+
+.headerMessage div {
+    margin-left: 8.33vw;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1.62vh 3.50vw 3.24vh 3.50vw;
+}
+
+.headerMessage div p:first-child {
+    color: #FFFFFF;
+    font-family: 'SF Pro Display Medium';
+    padding-bottom: 3.24vh;
+}
+
+.headerMessage div p:last-child a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #0085D8;
+    padding: 1.62vh 3.5vw 1.62vh 3.5vw;
+    font-family: 'SF Pro Display Thin';
+    font-size: 0.81rem;
+}
+
+
+/* headerMessage end */
+
+
+/* scrollFooter start */
+
+.scrollFooter {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 10.26vh;
+}
+
+.scrollFooter img {
+    width: 5.73vw;
+}
+
+
+/* scrollFooter end */
+
+
+/* menuContainer start */
+
+.menuContainer {
+    background-color: #000000;
+    display: none
+}
+
+.menuContainer .row:first-child {
+    height: 15.44vh;
+}
+
+.menuContainer .row:first-child div {
+    margin-right: 8.41vw
+}
+
+.menuContainer .row:last-child {
+    height: 84.56vh;
+}
+
+
+/* menuContainer end*/
+
+
+/* mainMenu start */
+
+.mainMenu li {
+    list-style: none;
+}
+
+.mainMenu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "SF Pro Display Light";
+    font-size: 1.05rem;
+}
+
+.mainMenu li a:hover {
+    color: #4C4C4C
+}
+
+.separator {
+    width: 7vw;
+    height: 0.32vh;
+    background-color: #0085D8;
+    margin: 1.62vh auto
+}
+
+
+/* mainMenu end*/
