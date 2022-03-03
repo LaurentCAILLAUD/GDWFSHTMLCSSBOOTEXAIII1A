@@ -1,0 +1,164 @@
+/* subHeader start */
+.subHeader {
+  height: 18.65vh;
+}
+
+.subHeader div:first-child {
+  margin-left: 8.33vw;
+}
+
+.subHeader div:last-child {
+  margin-right: 8.33vw;
+}
+
+.subHeader div:last-child img {
+  width: 5.86vw;
+}
+/* subHeader end */
+
+/* headerMessage start */
+.headerMessage {
+  height: 67.58vh;
+}
+
+.headerMessage div {
+  padding: 1.66vh 2.22vw 3.32vh 2.22vw;
+}
+
+.headerMessage div p:first-child {
+  padding-bottom: 4.78vh;
+  font-size: 1.06rem;
+}
+
+.headerMessage div p:last-child a {
+  font-size: 0.875rem;
+}
+/* headerMessage end */
+
+/* scrollFooter start */
+.scrollFooter {
+  height: 13.77vh;
+}
+
+.scrollFooter img {
+  width: 3.76vw;
+}
+/* scrollFooter end */
+
+/* menuContainer start */
+.menuContainer section:first-child {
+  height: 18.65vh;
+}
+
+.menuContainer section:first-child div {
+  margin-right: 8.33vw;
+}
+
+.menuContainer section:first-child img {
+  width: 5.86vw;
+}
+
+.menuContainer section:last-child {
+  height: 81.35vh;
+}
+/* menuContainer end */
+
+/* mainMenu start */
+.mainMenu li a {
+  font-size: 1.5625rem;
+}
+/* mainMenu end */
+
+/* associationContent start */
+.associationContent div {
+  text-align: center;
+}
+
+.titleContent {
+  padding-top: 4.88vh;
+}
+
+.titleLine {
+  width: 3.9vw;
+  height: 0.29vh;
+}
+
+.titleContent .titleLine:first-child {
+  margin-right: 3.91vw;
+}
+
+.titleContent .titleLine:last-child {
+  margin-left: 3.91vw;
+}
+
+.associationContent p,
+.rideInformations {
+  padding: 2.92vh 3.25vw 0 3.25vw;
+}
+
+.associationContent p {
+  text-align: start;
+}
+
+.associationContent p:last-child {
+  padding-bottom: 4.88vh;
+}
+
+.associationContent img {
+  padding: 2.92vh 0 0 0;
+  width: 45.57vw;
+}
+/* associationContent end*/
+
+/* rideInformations start */
+.rideIcon:first-of-type,
+.rideIcon:nth-of-type(4) {
+  margin-top: 2.92vh;
+}
+
+.rideIcon {
+  margin-top: 1.46vh;
+}
+
+.rideIcon img {
+  width: 1.95vw;
+}
+
+.rideCard > p {
+  margin: 2.92vh 0 4.88vh 0;
+}
+/* rideInformations end */
+
+/* socialsLinks start */
+.socialsLinks {
+  padding-top: 4.88vh;
+}
+
+.socialsLinks img {
+  height: 3.42vh;
+}
+
+.socialsLinks img:first-child {
+  margin-right: 4.56vw;
+}
+/* socialsLinks end*/
+
+/* navLinks start */
+.navLinks {
+  margin-top: 2.92vh;
+}
+
+.navLinks > div {
+  margin: 1.46vh auto;
+}
+/* navlLinks end */
+
+/* footerInformations start */
+.footerInformations {
+  margin: 2.92vh 0 4.88vh 0;
+}
+
+.footerInformations p:nth-child(2) {
+  margin: 1.46vh 0;
+}
+/* footerInformations end */

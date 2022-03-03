@@ -42,6 +42,10 @@
 .subHeader div:last-child {
   margin-right: 8.41vw;
 }
+
+.subHeader div:last-child img {
+  width: 100%;
+}
 /* subHeader end*/
 
 /* headerMessage start */
@@ -86,17 +90,22 @@
 .menuContainer {
   background-color: #000000;
   display: none;
+  width: 100vw;
 }
 
-.menuContainer .row:first-child {
+.menuContainer section:first-child {
   height: 15.44vh;
 }
 
-.menuContainer .row:first-child div {
+.menuContainer section:first-child div {
   margin-right: 8.41vw;
 }
 
-.menuContainer .row:last-child {
+.menuContainer section:first-child img {
+  width: 100%;
+}
+
+.menuContainer section:last-child {
   height: 84.56vh;
 }
 /* menuContainer end*/
@@ -167,6 +176,10 @@
 .associationContent img,
 .rideInformations {
   padding: 3.24vh 5.84vw 0 5.84vw;
+}
+
+.associationContent img {
+  width: 100%;
 }
 
 .associationContent p:last-child {
