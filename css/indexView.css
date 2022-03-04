@@ -207,6 +207,15 @@
 /* rideContent end */
 
 /* rideInformations start */
+.rideCard {
+  margin-bottom: 5.4vh;
+}
+
+.rideIcon:first-of-type,
+.rideIcon:nth-of-type(4) {
+  margin-top: 2.92vh;
+}
+
 .rideInformations h3 {
   color: #ffffff;
   font-family: "SF Pro Display Medium";
@@ -250,7 +259,7 @@
 }
 
 .rideCard > p {
-  margin: 3.52vh 0 7vh 0;
+  margin-top: 3.52vh;
 }
 /* rideInformations end*/
 

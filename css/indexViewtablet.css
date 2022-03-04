@@ -91,8 +91,7 @@
   margin-left: 3.91vw;
 }
 
-.associationContent p,
-.rideInformations {
+.associationContent p {
   padding: 2.92vh 3.25vw 0 3.25vw;
 }
 
@@ -111,6 +110,21 @@
 /* associationContent end*/
 
 /* rideInformations start */
+.rideInformations {
+  padding: 0;
+}
+
+.rideCard:nth-of-type(1) {
+  margin: 2.93vh 0 4.88vh 3.26vw;
+}
+
+.rideCard:nth-of-type(2) {
+  margin: 2.93vh 3.26vw 4.88vh 0;
+}
+
+.rideCard:nth-of-type(3) {
+  margin: 0 0 4.88vh 3.26vw;
+}
 .rideIcon:first-of-type,
 .rideIcon:nth-of-type(4) {
   margin-top: 2.92vh;
@@ -125,7 +139,7 @@
 }
 
 .rideCard > p {
-  margin: 2.92vh 0 4.88vh 0;
+  margin-top: 2.92vh;
 }
 /* rideInformations end */
 
