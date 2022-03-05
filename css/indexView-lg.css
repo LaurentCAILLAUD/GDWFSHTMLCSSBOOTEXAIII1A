@@ -1,179 +1,166 @@
+/* mainHeader start */
+.mainHeader {
+  background-image: url(../resources//header-background-lg.png);
+}
+/* mainHeader end */
+
 /* subHeader start */
 .subHeader {
-  height: 18.65vh;
+  height: 22.26vh;
 }
 
 .subHeader div:first-child {
-  margin-left: 8.33vw;
+  margin-left: 3.91vw;
 }
 
 .subHeader div:last-child {
-  margin-right: 8.33vw;
+  margin-right: 3.91vw;
 }
 
 .subHeader div:last-child img {
-  width: 5.86vw;
+  width: 4.88vw;
 }
-/* subHeader end */
+/* subHeader end*/
 
 /* headerMessage start */
 .headerMessage {
-  height: 67.58vh;
+  height: 66.67vh;
 }
 
 .headerMessage div {
-  padding: 1.66vh 2.22vw 3.52vh 2.22vw;
+  margin: 0 3.91vw 0 0;
+  padding: 2.21vh 1.66vw 4.68vh 1.66vw;
 }
 
 .headerMessage div p:first-child {
-  padding-bottom: 4.78vh;
-  font-size: 1.06rem;
+  padding-bottom: 6.38vh;
 }
 
 .headerMessage div p:last-child a {
-  padding: 1.86vh 2.6vw;
-  font-size: 0.875rem;
+  padding: 2.47vh 2.15vw;
 }
 /* headerMessage end */
 
 /* scrollFooter start */
 .scrollFooter {
-  height: 13.77vh;
+  height: 11.07vh;
 }
 
 .scrollFooter img {
-  width: 3.76vw;
+  width: 3.03vw;
 }
 /* scrollFooter end */
 
 /* menuContainer start */
 .menuContainer section:first-child {
-  height: 18.65vh;
+  height: 22.26vh;
 }
 
 .menuContainer section:first-child div {
-  margin-right: 8.33vw;
-}
-
-.menuContainer section:first-child img {
-  width: 5.86vw;
-}
-
-.menuContainer section:last-child {
-  height: 81.35vh;
-}
-/* menuContainer end */
-
-/* mainMenu start */
-.mainMenu li a {
-  font-size: 1.5625rem;
-}
-/* mainMenu end */
-
-/* associationContent start */
-.associationContent div {
-  text-align: center;
-}
-
-.titleContent {
-  padding-top: 4.88vh;
-}
-
-.titleLine {
-  width: 3.9vw;
-  height: 0.29vh;
-}
-
-.titleContent .titleLine:first-child {
   margin-right: 3.91vw;
 }
 
+.menuContainer section:first-child img {
+  width: 4.88vw;
+}
+
+.menuContainer section:last-child {
+  height: 77.74vh;
+}
+/* menuContainer end */
+
+/* associationContent start */
+.titleContent {
+  padding-top: 6.51vh;
+}
+
+.titleLine {
+  width: 2.93vw;
+  height: 0.39vh;
+}
+
+.titleContent .titleLine:first-child {
+  margin-right: 2.93vw;
+}
+
 .titleContent .titleLine:last-child {
-  margin-left: 3.91vw;
+  margin-left: 2.93vw;
 }
 
 .associationContent p {
-  padding: 2.92vh 3.25vw 0 3.25vw;
-}
-
-.associationContent p {
-  text-align: start;
+  padding: 3.91vh 2.44vw 0 2.44vw;
 }
 
 .associationContent p:last-child {
-  padding-bottom: 4.88vh;
+  padding-bottom: 6.51vh;
 }
 
 .associationContent img {
-  padding: 2.92vh 0 0 0;
-  width: 45.57vw;
+  padding: 3.91vh 0 0 0;
+  width: 34.18vw;
 }
 /* associationContent end*/
 
 /* rideInformations start */
-.rideInformations {
-  padding: 0;
-}
-
 .rideCard:nth-of-type(1) {
-  margin: 2.93vh 0 4.88vh 3.26vw;
+  margin: 3.91vh 0 6.51vh 2.44vw;
 }
 
 .rideCard:nth-of-type(2) {
-  margin: 2.93vh 3.26vw 4.88vh 0;
+  margin: 3.91vh 2.44vw 6.51vh 0;
 }
 
 .rideCard:nth-of-type(3) {
-  margin: 0 0 4.88vh 3.26vw;
+  margin: 0 0 6.51vh 2.44vw;
 }
 .rideIcon:first-of-type,
 .rideIcon:nth-of-type(4) {
-  margin-top: 2.92vh;
+  margin-top: 3.91vh;
 }
 
 .rideIcon {
-  margin-top: 1.46vh;
+  margin-top: 1.95vh;
 }
 
 .rideIcon img {
-  width: 1.95vw;
+  width: 1.46vw;
 }
 
 .rideCard > p {
-  margin-top: 2.92vh;
+  margin-top: 3.91vh;
 }
 /* rideInformations end */
 
 /* socialsLinks start */
 .socialsLinks {
-  padding-top: 4.88vh;
+  padding-top: 6.51vh;
 }
 
 .socialsLinks img {
-  height: 3.42vh;
+  height: 4.56vh;
 }
 
 .socialsLinks img:first-child {
-  margin-right: 4.56vw;
+  margin-right: 3.42vw;
 }
 /* socialsLinks end*/
 
 /* navLinks start */
 .navLinks {
-  margin-top: 2.92vh;
+  margin-top: 3.91vh;
 }
 
 .navLinks > div {
-  margin: 1.46vh auto;
+  margin: 1.95vh auto;
 }
 /* navlLinks end */
 
 /* footerInformations start */
 .footerInformations {
-  margin: 2.92vh 0 4.88vh 0;
+  margin: 3.91vh 0 6.51vh 0;
 }
 
 .footerInformations p:nth-child(2) {
-  margin: 1.46vh 0;
+  margin: 1.95vh 0;
 }
 /* footerInformations end */
