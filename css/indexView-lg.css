@@ -69,6 +69,12 @@
 }
 /* menuContainer end */
 
+/* mainMenu start */
+.mainMenu li a {
+  font-size: 1.75rem;
+}
+/* mainMenu end */
+
 /* associationContent start */
 .titleContent {
   padding-top: 6.51vh;
@@ -113,6 +119,11 @@
 .rideCard:nth-of-type(3) {
   margin: 0 0 6.51vh 2.44vw;
 }
+
+.rideCard h3 {
+  padding-top: 1.95vh;
+}
+
 .rideIcon:first-of-type,
 .rideIcon:nth-of-type(4) {
   margin-top: 3.91vh;
@@ -124,6 +135,14 @@
 
 .rideIcon img {
   width: 1.46vw;
+}
+
+.rideIcon p {
+  padding-left: 1.46vw;
+}
+
+.rideCard a {
+  padding: 1.95vh 1.46vw;
 }
 
 .rideCard > p {

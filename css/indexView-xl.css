@@ -33,7 +33,6 @@
 
 .headerMessage div p:last-child a {
   padding: 3.4vh 2.25vw;
-  font-size: 1rem;
 }
 /* headerMessage end */
 
@@ -70,6 +69,12 @@
   width: 1200px;
 }
 /* mainContainer end */
+
+/* mainMenu start */
+.mainMenu li a {
+  font-size: 2rem;
+}
+/* mainMenu end */
 
 /* associationContent start */
 .titleContent {
