@@ -1,0 +1,186 @@
+/* subHeader start */
+.subHeader {
+  height: 24.15vh;
+}
+
+.subHeader div:first-child {
+  margin-left: 3.33vw;
+}
+
+.subHeader div:last-child {
+  margin-right: 3.33vw;
+}
+
+.subHeader div:last-child img {
+  width: 4.58vw;
+}
+/* subHeader end*/
+
+/* headerMessage start */
+.headerMessage {
+  height: 62.52vh;
+}
+
+.headerMessage div {
+  margin: 0 3.33vw 0 0;
+  padding: 2.52vh 1.42vw 5.92vh 1.42vw;
+}
+
+.headerMessage div p:first-child {
+  padding-bottom: 11.55vh;
+  font-size: 2rem;
+}
+
+.headerMessage div p:last-child a {
+  padding: 3.4vh 2.25vw;
+  font-size: 1rem;
+}
+/* headerMessage end */
+
+/* scrollFooter start */
+.scrollFooter {
+  height: 13.33vh;
+}
+
+.scrollFooter img {
+  width: 2.5vw;
+}
+/* scrollFooter end */
+
+/* menuContainer start */
+.menuContainer section:first-child {
+  height: 24.15vh;
+}
+
+.menuContainer section:first-child div {
+  margin-right: 3.33vw;
+}
+
+.menuContainer section:first-child img {
+  width: 4.58vw;
+}
+
+.menuContainer section:last-child {
+  height: 75.85vh;
+}
+/* menuContainer end */
+
+/* mainContainer start */
+.mainContainer section > div {
+  width: 1200px;
+}
+/* mainContainer end */
+
+/* associationContent start */
+.titleContent {
+  padding-top: 50px;
+}
+
+.titleLine {
+  width: 30px;
+  height: 3px;
+}
+
+.titleContent .titleLine:first-child {
+  margin-right: 30px;
+}
+
+.titleContent .titleLine:last-child {
+  margin-left: 30px;
+}
+
+.associationContent p {
+  padding: 30px 25px 0 25px;
+}
+
+.associationContent p:last-child {
+  padding-bottom: 50px;
+}
+
+.associationContent img {
+  padding: 30px 0 0 0;
+  width: 350px;
+}
+/* associationContent end*/
+
+/* rideInformations start */
+.rideCard h3 {
+  padding-top: 15px;
+}
+
+.rideCard:nth-of-type(1) {
+  margin: 30px 0 50px 25px;
+}
+
+.rideCard:nth-of-type(2) {
+  margin: 30px 0 50px 0;
+}
+
+.rideCard:nth-of-type(3) {
+  margin: 30px 25px 50px 0;
+}
+.rideIcon:first-of-type,
+.rideIcon:nth-of-type(4) {
+  margin-top: 30px;
+}
+
+.rideIcon {
+  margin-top: 15px;
+}
+
+.rideIcon p {
+  padding-left: 15px;
+}
+
+.rideIcon img {
+  width: 15px;
+}
+
+.rideCard a {
+  padding: 15px;
+}
+
+.rideCard > p {
+  margin-top: 30px;
+}
+/* rideInformations end */
+
+/* footerContainer start*/
+.footerContainer div > div {
+  width: 1200px;
+}
+/* footerContainer end */
+
+/* socialsLinks start */
+.socialsLinks {
+  padding-top: 50px;
+}
+
+.socialsLinks img {
+  height: 35px;
+}
+
+.socialsLinks img:first-child {
+  margin-right: 35px;
+}
+/* socialsLinks end*/
+
+/* navLinks start */
+.navLinks {
+  margin-top: 30px;
+}
+
+.navLinks > div {
+  margin: 15px auto;
+}
+/* navlLinks end */
+
+/* footerInformations start */
+.footerInformations {
+  margin: 30px 0 50px 0;
+}
+
+.footerInformations p:nth-child(2) {
+  margin: 15px 0;
+}
+/* footerInformations end */
