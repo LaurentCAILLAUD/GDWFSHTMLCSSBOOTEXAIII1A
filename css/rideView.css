@@ -1,0 +1,58 @@
+/* Font-face declaration start*/
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url(../resources/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Light";
+  src: url(../resources/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url(../resources/SF-Pro-Display-Thin.otf);
+}
+/* Font-face declaration end */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.mainHeader {
+  background-image: url(../resources/slide-1-vertical-img.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.subHeader {
+  height: 15.44vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.subHeader div:first-child {
+  margin-left: 8.33vw;
+}
+
+.subHeader div:last-child {
+  margin-right: 8.33vw;
+}
+
+.subHeader div:last-child img {
+  width: 100%;
+}
+
+.slider {
+  height: 74.3vh;
+}
+
+.scrollFooter {
+  height: 10.26vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.scrollFooter img {
+  width: 5.73vw;
+}
