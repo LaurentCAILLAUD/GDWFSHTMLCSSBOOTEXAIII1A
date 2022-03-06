@@ -21,12 +21,15 @@
   font-size: 16px;
 }
 
+/* mainHeader start */
 .mainHeader {
   background-image: url(../resources/slide-1-vertical-img.png);
   background-size: cover;
   background-position: center;
 }
+/* mainHeader end */
 
+/* subHeader start */
 .subHeader {
   height: 15.44vh;
   background-color: rgba(0, 0, 0, 0.75);
@@ -43,11 +46,15 @@
 .subHeader div:last-child img {
   width: 100%;
 }
+/* subHeader end */
 
+/* slider start */
 .slider {
   height: 74.3vh;
 }
+/* slider end */
 
+/* srollFooter start*/
 .scrollFooter {
   height: 10.26vh;
   background-color: rgba(0, 0, 0, 0.75);
@@ -56,3 +63,56 @@
 .scrollFooter img {
   width: 5.73vw;
 }
+/* scrollFooter end */
+
+/* menuContainer start */
+.black {
+  background-color: black;
+}
+
+.menuContainer {
+  display: none;
+}
+
+.menuContainer section:first-child {
+  height: 15.44vh;
+}
+
+.menuContainer section:first-child div {
+  margin-right: 8.33vw;
+}
+
+.menuContainer section:first-child img {
+  width: 100%;
+}
+
+.menuContainer section:last-child {
+  height: 84.56vh;
+}
+/* menuContainer end */
+
+/* mainMenu start */
+.mainMenu li {
+  list-style: none;
+}
+
+.mainMenu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "SF Pro Display Light";
+  font-size: 1.25rem;
+}
+
+.separator {
+  width: 7vw;
+  height: 0.32vh;
+}
+
+.separator {
+  margin: 1.62vh auto;
+}
+
+.blue {
+  background-color: #0085d8;
+}
+/* mainMenu end */
