@@ -217,3 +217,53 @@
   font-size: 0.8125rem;
 }
 /* rideCard end */
+
+/* socialsLinks start */
+.socialsLinks {
+  padding-top: 5.4vh;
+}
+
+.socialsLinks img {
+  height: 3.24vh;
+}
+
+.socialsLinks img:first-child {
+  margin-right: 5.84vw;
+}
+/* socialLinks end */
+
+/* navLinks start */
+.navLinks {
+  margin-top: 3.24vh;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "SF Pro Display Light";
+}
+
+.navLinks > div {
+  margin: 1.62vh auto;
+}
+/* navLinks end */
+
+/* footerInformations start */
+.footerInformations {
+  margin: 3.24vh 0 5.4vh 0;
+}
+
+.footerInformations p,
+.footerInformations a {
+  font-family: "SF Pro Display Light";
+  color: #ffffff;
+}
+
+.footerInformations p:nth-child(2) {
+  margin: 1.62vh 0;
+}
+
+.footerInformations a {
+  text-decoration: none;
+}
+/* footerInformations end */
