@@ -1,0 +1,177 @@
+/* subHeader start */
+.subHeader {
+  height: 18.75vh;
+}
+
+.subHeader div:last-child img {
+  width: 5.86vw;
+}
+/* subHeader end */
+
+/* slider start */
+.slider {
+  height: 67.48vh;
+}
+/* slider end */
+
+/* srollFooter start*/
+.scrollFooter {
+  height: 13.77vh;
+}
+
+.scrollFooter img {
+  width: 3.74vw;
+}
+/* scrollFooter end */
+
+/* menuContainer start */
+.menuContainer {
+  width: 100vw;
+}
+
+.menuContainer section:first-child {
+  height: 18.75vh;
+}
+
+.menuContainer section:first-child img {
+  width: 5.86vw;
+}
+
+.menuContainer section:last-child {
+  height: 81.25vh;
+}
+/* menuContainer end */
+
+/* mainMenu start */
+.mainMenu li a {
+  font-size: 1.5625rem;
+}
+
+.blue {
+  background-color: #0085d8;
+}
+/* mainMenu end */
+
+/* title content start */
+.titleLine {
+  width: 3.91vw;
+  height: 0.29vh;
+}
+
+.titleContent {
+  margin-top: 4.88vh;
+}
+
+.titleContent h2 {
+  margin: 0 3.91vw;
+}
+/* titleContent end */
+
+/* toKnowContent start */
+.toKnowContent p {
+  padding: 2.93vh 2.44vw 0 2.44vw;
+}
+
+.toKnowContent p:last-child {
+  padding-bottom: 4.88vh;
+}
+/* toKnowContent end */
+
+/* rideCard start */
+.rideCard {
+  padding: 0;
+}
+
+.rideCard:nth-of-type(2),
+.rideCard:nth-of-type(3),
+.rideCard:nth-of-type(4),
+.rideCard:nth-of-type(5),
+.rideCard:nth-of-type(6) {
+  padding: 0;
+}
+
+.rideCard:nth-of-type(1) {
+  margin: 2.93vh 0 4.88vh 3.25vw;
+}
+
+.rideCard:nth-of-type(2) {
+  margin: 2.93vh 3.25vw 4.88vh 0;
+}
+
+.rideCard:nth-of-type(3),
+.rideCard:nth-of-type(5) {
+  margin: 0 0 4.88vh 3.35vw;
+}
+
+.rideCard:nth-of-type(4),
+.rideCard:nth-of-type(6) {
+  margin: 0 3.25vw 4.88vw 0;
+}
+
+.rideCard h3 {
+  margin-top: 1.46vh;
+}
+
+.rideIcon img {
+  width: 1.95vw;
+}
+
+.rideIcon p {
+  padding-left: 1.95vw;
+}
+
+.rideIcon {
+  margin-top: 1.46vh;
+}
+
+.rideIcon:nth-of-type(1),
+.rideIcon:nth-of-type(4) {
+  margin-top: 2.93vh;
+}
+
+.downloadContent {
+  margin-top: 2.93vh;
+}
+
+.downloadContent > div {
+  padding: 1.46vh 0;
+}
+
+.downloadContent div:last-child {
+  margin-top: 1.46vh;
+}
+/* rideCard end */
+
+/* socialsLinks start */
+.socialsLinks {
+  padding-top: 4.88vh;
+}
+
+.socialsLinks img {
+  height: 3.42vh;
+}
+
+.socialsLinks img:first-child {
+  margin-right: 4.56vw;
+}
+/* socialLinks end */
+
+/* navLinks start */
+.navLinks {
+  margin-top: 2.93vh;
+}
+
+.navLinks > div {
+  margin: 1.46vh auto;
+}
+/* navLinks end */
+
+/* footerInformations start */
+.footerInformations {
+  margin: 2.93vh 0 4.88vh 0;
+}
+
+.footerInformations p:nth-child(2) {
+  margin: 1.46vh 0;
+}
+/* footerInformations end */

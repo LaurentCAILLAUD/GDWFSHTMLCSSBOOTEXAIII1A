@@ -206,8 +206,8 @@
   margin-top: 3.24vh;
 }
 
-.downloadContent p {
-  padding: 1.62vh 3.5vw;
+.downloadContent > div {
+  padding: 1.62vh 0;
 }
 
 .downloadContent a {
