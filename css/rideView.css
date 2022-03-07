@@ -103,6 +103,10 @@
   font-size: 1.25rem;
 }
 
+.mainMenu li a:hover {
+  color: #4c4c4c;
+}
+
 .separator,
 .titleLine {
   width: 7vw;
