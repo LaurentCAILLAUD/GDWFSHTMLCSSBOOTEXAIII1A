@@ -1,171 +1,183 @@
 /* subHeader start */
 .subHeader {
-  height: 18.75vh;
+  height: 24.15vh;
+}
+
+.subHeader div:first-child {
+  margin-left: 3.33vw;
+}
+
+.subHeader div:last-child {
+  margin-right: 3.33vw;
 }
 
 .subHeader div:last-child img {
-  width: 5.86vw;
+  width: 4.58vw;
 }
 /* subHeader end */
 
 .mainHeader section:nth-of-type(2) {
-  height: 67.48vh;
+  height: 62.52vh;
 }
 
 /* srollFooter start*/
 .scrollFooter {
-  height: 13.77vh;
+  height: 13.33vh;
 }
 
 .scrollFooter img {
-  width: 3.74vw;
+  width: 2.5vw;
 }
 /* scrollFooter end */
 
 /* menuContainer start */
-.menuContainer {
-  width: 100vw;
+.menuContainer section:first-child {
+  height: 24.15vh;
 }
 
-.menuContainer section:first-child {
-  height: 18.75vh;
+.menuContainer section:first-child div {
+  margin-right: 3.33vw;
 }
 
 .menuContainer section:first-child img {
-  width: 5.86vw;
+  width: 4.58vw;
 }
 
 .menuContainer section:last-child {
-  height: 81.25vh;
+  height: 75.85vh;
 }
 /* menuContainer end */
 
 /* mainMenu start */
 .mainMenu li a {
-  font-size: 1.5625rem;
+  font-size: 2rem;
 }
 /* mainMenu end */
 
+/* mainContainer start */
+.mainContainer section > div {
+  width: 1200px;
+}
+/* mainContainer end */
+
 /* title content start */
 .titleLine {
-  width: 3.91vw;
-  height: 0.29vh;
+  width: 30px;
+  height: 3px;
 }
 
 .titleContent {
-  margin-top: 4.88vh;
+  margin-top: 50px;
 }
 
 .titleContent h2 {
-  margin: 0 3.91vw;
+  margin: 0 30px;
 }
 /* titleContent end */
 
 /* toKnowContent start */
 .toKnowContent p {
-  padding: 2.93vh 3.26vw 0 3.26vw;
+  padding: 30px 25px 0 25px;
 }
 
 .toKnowContent p:last-child {
-  padding-bottom: 4.88vh;
+  padding-bottom: 50px;
 }
 /* toKnowContent end */
 
 /* rideCard start */
-.rideCard {
-  padding: 0;
-}
-
-.rideCard:nth-of-type(2),
-.rideCard:nth-of-type(3),
-.rideCard:nth-of-type(4),
-.rideCard:nth-of-type(5),
-.rideCard:nth-of-type(6) {
-  padding: 0;
-}
-
 .rideCard:nth-of-type(1) {
-  margin: 2.93vh 0 4.88vh 3.25vw;
+  margin: 30px 0 50px 25px;
 }
 
 .rideCard:nth-of-type(2) {
-  margin: 2.93vh 3.25vw 4.88vh 0;
+  margin: 30px 0 50px 0;
 }
 
-.rideCard:nth-of-type(3),
+.rideCard:nth-of-type(3) {
+  margin: 30px 25px 50px 0;
+}
+
+.rideCard:nth-of-type(4) {
+  margin: 0 0 50px 25px;
+}
+
 .rideCard:nth-of-type(5) {
-  margin: 0 0 4.88vh 3.35vw;
+  margin: 0 0 50px 0;
 }
 
-.rideCard:nth-of-type(4),
 .rideCard:nth-of-type(6) {
-  margin: 0 3.25vw 4.88vh 0;
+  margin: 0 25px 50px 0;
 }
 
 .rideCard h3 {
-  margin-top: 1.46vh;
+  margin-top: 15px;
 }
 
 .rideIcon img {
-  width: 1.95vw;
+  width: 15px;
 }
 
 .rideIcon p {
-  padding-left: 1.95vw;
+  padding-left: 15px;
 }
 
 .rideIcon {
-  margin-top: 1.46vh;
+  margin-top: 15px;
 }
 
 .rideIcon:nth-of-type(1),
 .rideIcon:nth-of-type(4) {
-  margin-top: 2.93vh;
+  margin-top: 30px;
 }
 
 .downloadContent {
-  margin-top: 2.93vh;
+  margin-top: 30px;
 }
 
 .downloadContent > div {
-  padding: 1.46vh 0;
+  padding: 15px 0;
 }
 
 .downloadContent div:last-child {
-  margin-top: 1.46vh;
+  margin-top: 15px;
 }
 /* rideCard end */
 
+.footerContainer div > div {
+  width: 1200px;
+}
+
 /* socialsLinks start */
 .socialsLinks {
-  padding-top: 4.88vh;
+  padding-top: 50px;
 }
 
 .socialsLinks img {
-  height: 3.42vh;
+  height: 35px;
 }
 
 .socialsLinks img:first-child {
-  margin-right: 4.56vw;
+  margin-right: 35px;
 }
 /* socialLinks end */
 
 /* navLinks start */
 .navLinks {
-  margin-top: 2.93vh;
+  margin-top: 30px;
 }
 
 .navLinks > div {
-  margin: 1.46vh auto;
+  margin: 15px auto;
 }
 /* navLinks end */
 
 /* footerInformations start */
 .footerInformations {
-  margin: 2.93vh 0 4.88vh 0;
+  margin: 30px 0 50px 0;
 }
 
 .footerInformations p:nth-child(2) {
-  margin: 1.46vh 0;
+  margin: 15px 0;
 }
 /* footerInformations end */
