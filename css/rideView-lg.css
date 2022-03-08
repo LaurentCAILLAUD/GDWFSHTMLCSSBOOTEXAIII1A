@@ -1,0 +1,173 @@
+/* mainHeader start */
+.mainHeader {
+  background-image: url(../resources/slide-3-horizontal-img.png);
+}
+/* mainHeader end*/
+
+/* subHeader start */
+.subHeader {
+  height: 22.26vh;
+}
+
+.subHeader div:first-child {
+  margin-left: 3.91vw;
+}
+
+.subHeader div:last-child {
+  margin-right: 3.91vw;
+}
+
+.subHeader div:last-child img {
+  width: 4.88vw;
+}
+/* subHeader end */
+
+.mainHeader section:nth-of-type(2) {
+  height: 66.67vh;
+}
+
+/* srollFooter start*/
+.scrollFooter {
+  height: 11.07vh;
+}
+
+.scrollFooter img {
+  width: 3.03vw;
+}
+/* scrollFooter end */
+
+/* menuContainer start */
+.menuContainer section:first-child {
+  height: 22.26vh;
+}
+
+.menuContainer section:first-child div {
+  margin-right: 3.91vw;
+}
+
+.menuContainer section:first-child img {
+  width: 4.88vw;
+}
+
+.menuContainer section:last-child {
+  height: 77.74vh;
+}
+/* menuContainer end */
+
+/* mainMenu start */
+.mainMenu li a {
+  font-size: 1.75rem;
+}
+/* mainMenu end */
+
+/* title content start */
+.titleLine {
+  width: 2.93vw;
+  height: 0.39vh;
+}
+
+.titleContent {
+  margin-top: 6.51vh;
+}
+
+.titleContent h2 {
+  margin: 0 2.93vw;
+}
+/* titleContent end */
+
+/* toKnowContent start */
+.toKnowContent p {
+  padding: 3.91vh 2.44vw 0 2.44vw;
+}
+
+.toKnowContent p:last-child {
+  padding-bottom: 6.51vh;
+}
+/* toKnowContent end */
+
+/* rideCard start */
+.rideCard:nth-of-type(1) {
+  margin: 3.91vh 0 6.51vh 2.44vw;
+}
+
+.rideCard:nth-of-type(2) {
+  margin: 3.91vh 2.44vw 6.51vh 0;
+}
+
+.rideCard:nth-of-type(3),
+.rideCard:nth-of-type(5) {
+  margin: 0 0 6.51vh 2.44vw;
+}
+
+.rideCard:nth-of-type(4),
+.rideCard:nth-of-type(6) {
+  margin: 0 2.44vw 6.51vh 0;
+}
+
+.rideCard h3 {
+  margin-top: 1.95vh;
+}
+
+.rideIcon img {
+  width: 1.46vw;
+}
+
+.rideIcon p {
+  padding-left: 1.46vw;
+}
+
+.rideIcon {
+  margin-top: 1.95vh;
+}
+
+.rideIcon:nth-of-type(1),
+.rideIcon:nth-of-type(4) {
+  margin-top: 3.91vh;
+}
+
+.downloadContent {
+  margin-top: 3.91vh;
+}
+
+.downloadContent > div {
+  padding: 1.95vh 0;
+}
+
+.downloadContent div:last-child {
+  margin-top: 1.95vh;
+}
+/* rideCard end */
+
+/* socialsLinks start */
+.socialsLinks {
+  padding-top: 6.51vh;
+}
+
+.socialsLinks img {
+  height: 4.56vh;
+}
+
+.socialsLinks img:first-child {
+  margin-right: 3.42vw;
+}
+/* socialLinks end */
+
+/* navLinks start */
+.navLinks {
+  margin-top: 3.91vh;
+}
+
+.navLinks > div {
+  margin: 1.95vh auto;
+}
+/* navLinks end */
+
+/* footerInformations start */
+.footerInformations {
+  margin: 3.91vh 0 6.51vh 0;
+}
+
+.footerInformations p:nth-child(2) {
+  margin: 1.95vh 0;
+}
+/* footerInformations end */
